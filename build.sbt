@@ -10,6 +10,7 @@ scalaVersion := "2.12.2"
 
 requiresDOM in Test := true
 useYarn := true // instead of npm
+scalaJSUseMainModuleInitializer := true
 
 resolvers += "jitpack" at "https://jitpack.io"
 libraryDependencies ++= Seq(
